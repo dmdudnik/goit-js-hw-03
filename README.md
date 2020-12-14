@@ -54,17 +54,6 @@ console.log( findBestEmployee({ lux: 147, david: 21, kiwi: 19, chelsy: 38, }),
 Функция считает общую сумму запрплаты работников и возращает ее. Каждое поле
 объекта, передаваемого в функцию, имеет вид "имя":"зарплата".
 
-const countTotalSalary = function(employees) { // твой код };
-
-/\*
-
-- Вызовы функции для проверки работоспособности твоей реализации. \*/
-  console.log(countTotalSalary({})); // 0
-
-console.log( countTotalSalary({ mango: 100, poly: 150, alfred: 80, }), ); // 330
-
-console.log( countTotalSalary({ kiwi: 200, lux: 50, chelsy: 150, }), ); // 400
-
 Задание 5 Напиши функцию getAllPropValues(arr, prop), которая получает массив
 объектов и имя свойства. Возвращает массив значений определенного свойства prop
 из каждого объекта в массиве.
