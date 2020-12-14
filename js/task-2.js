@@ -1,14 +1,9 @@
 //Функция возвращает число - количество свойств.
 
 const countProps = function (obj) {
-  //возвращаем массив с ключами обьекта.
-  const keys = Object.keys(obj);
-
   //возвращаем количество элементов массива
-  return keys.length;
+  return Object.keys(obj).length;
 };
-
-//Вызовы функции для проверки работоспособности твоей реализации.\* /
 console.log(countProps({})); //0
 
 console.log(countProps({ name: "Mango", age: 2 })); //2
