@@ -4,6 +4,7 @@ const countProps = function (obj) {
   //возвращаем количество элементов массива
   return Object.keys(obj).length;
 };
+
 console.log(countProps({})); //0
 
 console.log(countProps({ name: "Mango", age: 2 })); //2
